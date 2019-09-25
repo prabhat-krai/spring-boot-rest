@@ -1,4 +1,11 @@
 package com.example.learn.rest;
 
-public class Student_actions {
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StudentResource {
+    @Autowired
+
 }
