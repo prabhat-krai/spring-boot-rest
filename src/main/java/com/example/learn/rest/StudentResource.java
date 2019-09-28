@@ -9,10 +9,10 @@ import java.net.URI;
 import java.util.List;
 import java.util.Optional;
 
-@RestController
+@RestController // Combination of @Controller and @ResponseBody. Beans are converted to JSON/XML
 public class StudentResource {
 
-    @Autowired
+    @Autowired // Autowire the StudentRepository so that we can retrieve and save data to database
     private StudentRepository studentRepository;
 
     @GetMapping("/students")

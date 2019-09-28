@@ -1,5 +1,5 @@
 insert into student
-values(10001,'Prabhat', 'E1234567');
+values(1,'Prabhat', 'E1234567');
 
 insert into student
-values(10002,'Chotu', 'A1234568');
+values(2,'Chotu', 'A1234568');

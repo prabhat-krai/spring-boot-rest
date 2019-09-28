@@ -5,15 +5,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Entity
+@Entity // This specifies that this class is an entity
 public class Student {
-    @Id
-    @GeneratedValue
+    @Id // Specifies the primary key of an entity
+    @GeneratedValue // Provides for the specification of generation strategies for the primary keys
     private Long id;
     private String name;
     private String passportNumber;
 
-    public Student() {
+    public Student() {  // default constructor for JPA
         super();
     }
 
